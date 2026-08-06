@@ -1,0 +1,20 @@
+{
+  "collections": {
+    "posts": {
+      "fields": {
+        "content": { "type": "string" },
+        "status": { "type": "string" },
+        "platform": { "type": "string" },
+        "createdAt": { "type": "timestamp" },
+        "docId": { "type": "string", "optional": true },
+        "docTitle": { "type": "string", "optional": true }
+      }
+    },
+    "settings": {
+      "fields": {
+        "geminiPrompt": { "type": "string" },
+        "autoPost": { "type": "boolean" }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Social Spark",
+  "description": "An AI-powered automation tool that connects Gemini with Google Docs to post social media updates automatically.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
